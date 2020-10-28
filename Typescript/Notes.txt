@@ -1,0 +1,22 @@
+What is Angular?
+It is a framework designed by google to create rich interactive web apps which could be targetted on multiple devices like Mobile, Tablets, Desktops  and many more. It is created using Typescript. 
+
+What is Typescript?
+It is a subset of Javascript which is used to create type safe scripting code which comes with a compiler that converts our typescript code to be converted into js and execute. 
+
+What is Javascript?
+It is a scripting language used to create dynamic content within the HTML documents. 
+ 
+
+Software requirements:
+VS code for coding purpose
+Nodejs for running Angular Apps.
+Angular/CLI for executing angular commands to create Angular components. 
+
+How to create Angular Apps?
+
+Brief on Typescript?
+TS is a langugage based on JS developed by MS for creating client side code with strict type checking. JS does not have a strict type check while creating variables, so use ts to create the required code, convert it to JS and use it in ur apps. 
+TS directly cannot be executed on any web environment. So U write the type safe code in TS,convert the code using Transpiler(Compiler for Typescript) to JS and use the generated JS code in UR web app development. 
+
+If U want to compile multiple TS files together, then U could create a config file for TS called TSCONFIG.json and set the settings required for the list of the files to compile. U can also mention where the output files are to be placed. 
