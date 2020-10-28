@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Interaction</title>
+</head>
+<body>
+    <div>
+        <h2>User Registration Details</h2>
+        <form>
+           <p>
+               <label for="username">Enter the name</label>
+               <input id="username" name="username" required type="text"/>
+           </p>
+           
+           <p>
+               <label for="email">Enter the Email Address</label>
+               <input id="email" name="email" type="email"/>
+           </p>
+           <p>
+               <label for="userPhone">Enter the Phone</label>
+               <input id="userPhone" name="userPhone" type="tel"/>
+           </p>
+           <p>
+               <label for="userinfo">Tell Us about UrSelf!!!</label>
+               <textarea id="userinfo" name="userinfo" cols="100" rows="5">
+
+               </textarea>
+           </p>
+           <p>
+               <label for="qualification">Select qualification</label>
+               <select id="qualification">
+                   <option>Graduation</option>
+                   <option>Post Graduation</option>
+                   <option>Under Graduation</option>
+                   <option>Research</option>
+                   <option>Pre University</option>
+               </select>
+           </p>
+           <p>
+               <label for="city">Get UR City</label>
+               <datalist id="lstCities">
+                   <option>Bangalore</option>
+                   <option>Ahmedabad</option>
+                   <option>Mumbai</option>
+                   <option>Chennai</option>
+                   <option>Pune</option>
+                   <option>Mysore</option>
+                   <option>Vizag</option>
+                   <option>Hyderabad</option>
+                   <option>New Delhi</option>
+                   <option>Gurgaum</option>
+                   <option>Noida</option>
+               </datalist>
+               <input id="city" list="lstCities" placeholder="Select City"/>
+           </p>
+           <p>
+               <label for="dateOfBirth">Select the Date of birth</label>
+               <input type="date" id="dateOfBirth"/>
+           </p>
+           <p>
+               <button>Register</button>
+           </p>
+        </form>
+    </div>
+</body>
+</html>
