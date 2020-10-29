@@ -1,0 +1,13 @@
+h1{
+    font-size: 40pt;
+    text-align: center;
+    color:lightcoral
+}
+
+footer{
+    bottom: 0px;
+    font-size : 0.8em;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}

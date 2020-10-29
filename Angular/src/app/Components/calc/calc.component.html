@@ -1,0 +1,16 @@
+<div>
+    <h2>My calc Program</h2>
+    <hr>
+    <p>
+        <input type="number" [(ngModel)]="firstValue" placeholder="Enter First value">
+        <select [(ngModel)]="operand">
+            <option>+</option>
+            <option>-</option>
+            <option>X</option>
+            <option>/</option>
+        </select>
+        <input type="number" [(ngModel)]="secondValue" placeholder="Enter Second Value">
+        <button (click)="calculate()"> = </button>
+        <span>{{result}}</span>
+    </p>
+</div>

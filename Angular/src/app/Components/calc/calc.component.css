@@ -1,0 +1,12 @@
+input, select, span{
+    height: 25px;
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+button{
+    width: 75px;
+    height: 25px;
+    background-color: bisque;
+}
